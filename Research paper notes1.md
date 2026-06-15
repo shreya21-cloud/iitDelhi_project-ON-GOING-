@@ -243,3 +243,56 @@ Successfully distinguishes objects.
 Reason:
 
 CLIP provides strong image-text alignment.
+
+10. Generalization Capability
+
+Tested on:
+
+Unseen objects
+New colors
+New descriptions
+
+Examples:
+
+Commands:
+
+Pick up the yellow bell pepper
+Pick up the red bell pepper
+Pick up the pencil case
+
+Result:
+
+Successfully distinguishes objects.
+
+Reason:
+
+CLIP provides strong image-text alignment.
+
+11. Performance Comparison
+
+Compared With:
+
+CLIPort
+2D grasping only.
+Higher parameters.
+Slower.
+Grounded SAM + GSNet
+Two-stage pipeline.
+Uses segmentation first.
+More computation.
+
+Grasp-CLIP
+
+Advantages:
+
+End-to-End.
+Faster.
+Fewer parameters.
+Better grasp precision.
+
+Key Results:
+
+Method	Params	Time
+CLIPort	0.21B	0.401s
+Grounded SAM + GSNet	0.83B	0.625s
+Grasp-CLIP	0.18B	0.238s
