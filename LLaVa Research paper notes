@@ -179,3 +179,24 @@ Without pretraining: 85.81%
 Conclusion
 
 Feature Alignment is essential for connecting image and language representations
+
+4. Model Size
+Experiment
+
+Compare:
+
+13B model
+7B model
+Result
+13B: 90.92%
+7B: 89.84%
+Conclusion
+
+Larger models provide slightly better multimodal understanding and reasoning.
+
+Key Takeaways
+LLaVA successfully performs image understanding and instruction following.
+Visual instruction tuning significantly improves multimodal capabilities.
+Reasoning-based data enhances performance.
+Feature alignment is critical for image-language integration.
+LLaVA achieves strong results on both chatbot and ScienceQA benchmarks.
