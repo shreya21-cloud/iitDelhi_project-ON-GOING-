@@ -222,3 +222,6 @@ This paper introduces Visual Instruction Tuning and presents LLaVA, a multimodal
 - Better multimodal reasoning.
 - Improved visual understanding.
 - More capable general-purpose AI assistants.
+
+Key Takeaway
+LLaVA demonstrates that instruction tuning can be successfully extended from text-only models to multimodal vision-language models.
